@@ -8,6 +8,7 @@
 import Foundation
 
 /// Convenience for 'fatalError()' with a default value, to use in DEBUG or not
+@discardableResult
 public func _fatailError<T>(_ msg: String = "调用有问题，正常不应该执行这里", value: @autoclosure () throws -> T) rethrows -> T {
     #if DEBUG
     fatalError(msg)
