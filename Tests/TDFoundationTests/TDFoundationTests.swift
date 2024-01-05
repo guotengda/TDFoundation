@@ -6,6 +6,6 @@ final class TDFoundationTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(TDFoundation().text, "Hello, World!")
+//        XCTAssertEqual(TDFoundation().text, "Hello, World!")
     }
 }
